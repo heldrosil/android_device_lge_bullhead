@@ -550,7 +550,7 @@ PRODUCT_PACKAGES += \
 
 #Vendor Patch Level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2018-10-05
+    ro.vendor.build.security_patch=2018-12-05
 
 # Modem debugger/misc
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
